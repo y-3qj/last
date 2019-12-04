@@ -1,0 +1,67 @@
+.white-nav #header-wrapper #globalNav > ul > li > a {
+  color: #fff;
+}
+#globalNav > ul > li > a {
+  font-size: 0.9rem;
+  padding: 0 10px;
+  line-height: 80px;
+  float: left;
+}
+#globalNav > ul > li > a {
+  font-size: 1rem;
+  padding: 0 10px;
+}
+#globalNav > ul > li > a {
+  padding: 0 15px;
+  display: inline-block;
+  line-height: 110px;
+  position: relative;
+}
+a, a:link, a:visited {
+  color: #000;
+}
+a {
+  text-decoration: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+nav ul {
+  list-style: none;
+}
+
+ul {
+  list-style-type: disc;
+}
+#globalNav > ul > li > a::before {
+  content: "[";
+  position: absolute;
+  left: 5px;
+  font-family: "A1明朝";
+  font-weight: 100;
+  opacity: 0;
+}
+#globalNav > ul > li > a::after {
+  content: "]";
+  position: absolute;
+  right: 5px;
+  font-family: "A1明朝";
+  font-weight: 100;
+  opacity: 0;
+}
